@@ -1,0 +1,34 @@
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L2P.ucf -p xc6slx9-csg324-2 L2P.ngc L2P.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L2P_map.ncd L2P.ngd L2P.pcf 
+par -w -intstyle ise -ol high -mt off L2P_map.ncd L2P.ncd L2P.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml L2P.twx L2P.ncd -o L2P.twr L2P.pcf -ucf L2P.ucf 
+bitgen -intstyle ise -f L2P.ut L2P.ncd 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L2P.ucf -p xc6slx9-csg324-2 L2P.ngc L2P.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L2P_map.ncd L2P.ngd L2P.pcf 
+par -w -intstyle ise -ol high -mt off L2P_map.ncd L2P.ncd L2P.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml L2P.twx L2P.ncd -o L2P.twr L2P.pcf -ucf L2P.ucf 
+bitgen -intstyle ise -f L2P.ut L2P.ncd 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+xst -intstyle ise -ifn "D:/DSD_LAB_07/lab07/L2P.xst" -ofn "D:/DSD_LAB_07/lab07/L2P.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L2P.ucf -p xc6slx9-csg324-2 L2P.ngc L2P.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L2P_map.ncd L2P.ngd L2P.pcf 
+par -w -intstyle ise -ol high -mt off L2P_map.ncd L2P.ncd L2P.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml L2P.twx L2P.ncd -o L2P.twr L2P.pcf -ucf L2P.ucf 
+bitgen -intstyle ise -f L2P.ut L2P.ncd 

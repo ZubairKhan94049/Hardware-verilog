@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Jun 16 10:29:16 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "state7seg<0>" LOCATE = SITE "A3" LEVEL 1;
+COMP "state7seg<1>" LOCATE = SITE "B4" LEVEL 1;
+COMP "FarmLight<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "enable" LOCATE = SITE "B3" LEVEL 1;
+COMP "state7seg<2>" LOCATE = SITE "A4" LEVEL 1;
+COMP "FarmLight<1>" LOCATE = SITE "U17" LEVEL 1;
+COMP "state7seg<3>" LOCATE = SITE "C4" LEVEL 1;
+COMP "FarmLight<2>" LOCATE = SITE "U18" LEVEL 1;
+COMP "state7seg<4>" LOCATE = SITE "C5" LEVEL 1;
+COMP "state7seg<5>" LOCATE = SITE "D6" LEVEL 1;
+COMP "state7seg<6>" LOCATE = SITE "C6" LEVEL 1;
+COMP "HighWayLight<0>" LOCATE = SITE "P15" LEVEL 1;
+COMP "HighWayLight<1>" LOCATE = SITE "P16" LEVEL 1;
+COMP "HighWayLight<2>" LOCATE = SITE "N15" LEVEL 1;
+COMP "reset" LOCATE = SITE "C17" LEVEL 1;
+COMP "VEHICAL_IN" LOCATE = SITE "F17" LEVEL 1;
+SCHEMATIC END;
+

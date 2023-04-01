@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\EngineeringData\6th_Semester\Digital_System_Design_LAB\LabReport_#_06\Practice\DSD_LAB_7b\lab\counter.ncd
+OUTFILE=D:\EngineeringData\6th_Semester\Digital_System_Design_LAB\LabReport_#_06\Practice\DSD_LAB_7b\lab\counter.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg324
+WORKINGDIR=D:\EngineeringData\6th_Semester\Digital_System_Design_LAB\LabReport_#_06\Practice\DSD_LAB_7b\lab
+LICENSE=WebPack
+USER_INFO=__0_0_0

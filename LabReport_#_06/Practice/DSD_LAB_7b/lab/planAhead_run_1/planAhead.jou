@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu May 26 11:00:57 2022
+# Process ID: 3212
+# Log file: D:/sds/lab/planAhead_run_1/planAhead.log
+# Journal file: D:/sds/lab/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/sds/lab/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin V10 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin F17 [get_ports rst]
+endgroup
+set_property package_pin "" [get_ports [list  {counter7seg[2]}]]
+startgroup
+set_property package_pin B3 [get_ports {en[2]}]
+endgroup
+startgroup
+set_property package_pin A2 [get_ports {en[1]}]
+endgroup
+startgroup
+set_property package_pin B2 [get_ports {en[0]}]
+endgroup
+startgroup
+set_property package_pin A3 [get_ports {counter7seg[6]}]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports {counter7seg[5]}]
+endgroup
+startgroup
+set_property package_pin A4 [get_ports {counter7seg[4]}]
+endgroup
+startgroup
+set_property package_pin C4 [get_ports {counter7seg[3]}]
+endgroup
+startgroup
+set_property package_pin C5 [get_ports {counter7seg[2]}]
+endgroup
+startgroup
+set_property package_pin D6 [get_ports {counter7seg[1]}]
+endgroup
+save_constraints

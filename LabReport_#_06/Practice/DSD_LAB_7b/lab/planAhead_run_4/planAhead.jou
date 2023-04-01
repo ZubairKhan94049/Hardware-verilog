@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu May 26 21:10:26 2022
+# Process ID: 11192
+# Log file: D:/sds/lab/planAhead_run_4/planAhead.log
+# Journal file: D:/sds/lab/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/sds/lab/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property slew FAST [get_ports [list {en[2]} {en[1]} {en[0]}]]
+save_constraints

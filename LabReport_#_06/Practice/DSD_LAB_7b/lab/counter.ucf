@@ -1,0 +1,31 @@
+
+
+NET "clk" LOC = V10;
+NET "rst" LOC = F17;
+NET "en[2]" LOC = B3;
+NET "en[1]" LOC = A2;
+NET "en[0]" LOC = B2;
+NET "counter7seg[6]" LOC = A3;
+NET "counter7seg[5]" LOC = B4;
+NET "counter7seg[4]" LOC = A4;
+NET "counter7seg[3]" LOC = C4;
+NET "counter7seg[2]" LOC = C5;
+NET "counter7seg[1]" LOC = D6;
+
+
+NET "counter7seg[0]" LOC = A5;
+
+
+NET "counter7seg[6]" SLEW = FAST;
+NET "counter7seg[5]" SLEW = FAST;
+NET "counter7seg[4]" SLEW = FAST;
+NET "counter7seg[3]" SLEW = FAST;
+NET "counter7seg[2]" SLEW = FAST;
+NET "counter7seg[1]" SLEW = FAST;
+NET "counter7seg[0]" SLEW = FAST;
+
+# PlanAhead Generated IO constraints 
+
+NET "en[2]" SLEW = FAST;
+NET "en[1]" SLEW = FAST;
+NET "en[0]" SLEW = FAST;

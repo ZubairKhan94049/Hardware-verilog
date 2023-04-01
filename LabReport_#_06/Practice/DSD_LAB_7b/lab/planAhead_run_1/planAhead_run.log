@@ -1,0 +1,76 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/sds/lab/pa.fromHdl.tcl
+# create_project -name lab -dir "D:/sds/lab/planAhead_run_1" -part xc6slx9csg324-2
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "counter.ucf" [current_fileset -constrset]
+Adding file 'D:/sds/lab/counter.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {labsd7b.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top counter $srcset
+# add_files [list {counter.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx9csg324-2
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "D:/sds/lab/labsd7b.v" into library work
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [D:/sds/lab/counter.ucf]
+Finished Parsing UCF File [D:/sds/lab/counter.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 9d2a7f74
+open_rtl_design: Time (s): elapsed = 00:00:13 . Memory (MB): peak = 679.113 ; gain = 153.582
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin V10 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin F17 [get_ports rst]
+endgroup
+set_property package_pin "" [get_ports [list  {counter7seg[2]}]]
+startgroup
+set_property package_pin B3 [get_ports {en[2]}]
+endgroup
+startgroup
+set_property package_pin A2 [get_ports {en[1]}]
+endgroup
+startgroup
+set_property package_pin B2 [get_ports {en[0]}]
+endgroup
+startgroup
+set_property package_pin A3 [get_ports {counter7seg[6]}]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports {counter7seg[5]}]
+endgroup
+startgroup
+set_property package_pin A4 [get_ports {counter7seg[4]}]
+endgroup
+startgroup
+set_property package_pin C4 [get_ports {counter7seg[3]}]
+endgroup
+startgroup
+set_property package_pin C5 [get_ports {counter7seg[2]}]
+endgroup
+startgroup
+set_property package_pin D6 [get_ports {counter7seg[1]}]
+endgroup
+save_constraints

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun May 29 13:44:30 2022
+# Process ID: 15516
+# Log file: D:/EngineeringData/6th_Semester/Digital_System_Design_LAB/LabReport_#_06/Practice/DSD_LAB_7a/planAhead_run_4/planAhead.log
+# Journal file: D:/EngineeringData/6th_Semester/Digital_System_Design_LAB/LabReport_#_06/Practice/DSD_LAB_7a/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/EngineeringData/6th_Semester/Digital_System_Design_LAB/LabReport_#_06/Practice/DSD_LAB_7a/pa.fromHdl.tcl

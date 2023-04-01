@@ -1,0 +1,10 @@
+D:/EngineeringData/6th_Semester/Digital_System_Design_LAB/LabReport_#_01/task_01.v {1 {vlog -work work D:/EngineeringData/6th_Semester/Digital_System_Design_LAB/LabReport_#_01/task_01.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module notGate
+-- Compiling module buffer
+-- Compiling module buffer_stim
+
+Top level modules:
+	buffer_stim
+
+} {} {}}

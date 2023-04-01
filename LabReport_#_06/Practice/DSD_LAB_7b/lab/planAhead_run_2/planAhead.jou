@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu May 26 20:44:23 2022
+# Process ID: 8016
+# Log file: D:/sds/lab/planAhead_run_2/planAhead.log
+# Journal file: D:/sds/lab/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/sds/lab/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+refresh_design
+set_property slew FAST [get_ports [list {counter7seg[6]} {counter7seg[5]} {counter7seg[4]} {counter7seg[3]} {counter7seg[2]} {counter7seg[1]} {counter7seg[0]}]]
+save_constraints

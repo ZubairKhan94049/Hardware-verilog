@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Jun 02 09:21:11 2022
+# Process ID: 2860
+# Log file: D:/DSD_LAB_07/lab07/planAhead_run_1/planAhead.log
+# Journal file: D:/DSD_LAB_07/lab07/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/DSD_LAB_07/lab07/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  in]]
+startgroup
+set_property package_pin A10 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin V10 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin C17 [get_ports in]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports out]
+endgroup
+startgroup
+set_property package_pin C17 [get_ports in]
+endgroup
+startgroup
+set_property package_pin F17 [get_ports rst]
+endgroup
+save_constraints
+set_property pulltype PULLUP [get_ports [list in]]
+set_property pulltype PULLUP [get_ports [list rst]]
+set_property pulltype PULLUP [get_ports [list clk]]
+save_constraints
+set_property slew FAST [get_ports [list out]]
+save_constraints

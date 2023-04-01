@@ -1,0 +1,27 @@
+//reset, clk, VEHICAL_IN, HighWayLight, FarmLight,state7seg
+
+NET "reset" LOC = C17 | PULLUP;
+NET "clk" LOC = V10 | PULLUP;
+NET "VEHICAL_IN" LOC = F17 | PULLUP;
+
+NET "HighWayLight[0]" LOC = P15;
+NET "HighWayLight[1]" LOC =  P16;
+NET "HighWayLight[2]" LOC =  N15;
+
+NET "FarmLight[0]" LOC =  N16;
+NET "FarmLight[1]" LOC =  U17;
+NET "FarmLight[2]" LOC =  U18;
+
+NET "state7seg[0]" LOC = A3;
+NET "state7seg[1]" LOC = B4;
+NET "state7seg[2]" LOC = A4;
+NET "state7seg[3]" LOC = C4;
+NET "state7seg[4]" LOC = C5;
+NET "state7seg[5]" LOC = D6;
+NET "state7seg[6]" LOC = C6;
+
+NET "enable" LOC = B3;
+
+
+
+
